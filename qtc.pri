@@ -7,3 +7,5 @@ isEmpty(IDE_SOURCE_TREE): IDE_SOURCE_TREE = "/Users/Shared/qt/creator/4.6/src/qt
 ## or set the QTC_BUILD environment variable, to override the default setting
 isEmpty(IDE_BUILD_TREE): IDE_BUILD_TREE = $$(QTC_BUILD)
 isEmpty(IDE_BUILD_TREE): IDE_BUILD_TREE = "/Users/Shared/qt/creator/4.6/5.10/qtcreator"
+
+QTC_LIB_DIRS *= $$PWD/lib/

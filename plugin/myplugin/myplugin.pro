@@ -18,7 +18,7 @@ HEADERS += \
 
 QTC_PLUGIN_NAME = MyPlugin
 QTC_LIB_DEPENDS += \
-    # nothing here at this time
+    supportlib
 
 QTC_PLUGIN_DEPENDS += \
     coreplugin
@@ -30,5 +30,3 @@ QTC_PLUGIN_RECOMMENDS += \
 
 include(../../qtc.pri)
 include($$IDE_SOURCE_TREE/src/qtcreatorplugin.pri)
-
-LIBS *= -l$$qtLibraryName(SupportLib)
